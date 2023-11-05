@@ -1,0 +1,182 @@
+
+body {
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: green;
+    font-size: 18px;
+    transition: 0.2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  ul li:nth-child(odd) {
+    background: green;
+  }
+  
+  ul li:hover {
+    background: white;
+  }
+  
+  ul li.checked {
+    background: red;
+    color: #fff;
+    text-decoration: line-through;
+  }
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+  }
+  
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+  
+  .close:hover {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  
+  .header {
+    background-color: #84e073;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    margin: auto 0;
+  }
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+  }
+  
+  
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: skyblue;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: green;
+  }
+  #bulb-button{
+  
+     display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+      box-shadow: 4px 4px 4px 0 rgba(46, 61, 73, 0.13);
+          border-radius: 0.25rem;
+          letter-spacing: 0.09375rem;
+          background: #fff;
+  }
+  table{
+    background-color: purple;
+  }
+  tr{
+    background-color: black;
+  }
+  td{
+    background-color: #f44336;
+  }
+  .formstyle
+  {
+  width: 300px;
+  height: 330px;
+  margin: 20px auto;
+  border: 3px solid skyblue;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(28, 6, 91);
+  }
+  
+  h1 {
+      text-align: center;
+      padding: 23px;
+      background-color: skyblue;
+      color: white;
+      }
+  input:hover
+  {
+  background-color: green;
+  }
+      
+  *{
+  margin: 0;
+  padding: 0;
+  }
+  
+  
+  .btn{
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: rgb(12, 163, 25);
+  color: white;
+  
+  }
+  
+  
+  .textview{
+  width: 223px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  background-color: lightgreen;
+  }	
